@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/61087c796e.js" crossorigin="anonymous"></script>
+
+    <title>ToDo</title>
+</head>
+<body>
+
+    <div id="mainWrapper">
+
+        <div id="fullListWrapper">
+
+            <h1>Today</h1>
+            <!-- <p>No ToDo's till now</p> -->
+
+            <div id="listWrapper" class="todoContent">
+                
+                <ul id="list">
+                    <!-- <li class="listItem"> <i class="fas fa-check tick"></i>Hello<i class="fas fa-times delete"></i></li>
+                    <li class="listItem"> <i class="fas fa-check tick"></i>Another hello<i class="fas fa-times delete"></i></li>
+                    <li class="listItem"> <i class="fas fa-check tick"></i>list item<i class="fas fa-times delete"></i></li> -->
+                </ul>
+            </div>
+
+            <div id="crossedOutList" class="todoContent">
+                <ul id="list-crossed">
+                    <!-- <li class="listItem"> <i class="fas fa-check tick"></i>Hello<i class="fas fa-trash-alt trash"></i></li>
+                    <li class="listItem"> <i class="fas fa-check tick"></i>Another hello<i class="fas fa-trash-alt trash"></i></li>
+                    <li class="listItem"> <i class="fas fa-check tick"></i>list item<i class="fas fa-trash-alt trash"></i></li> -->
+                </ul>
+            </div>
+
+            
+        </div>
+
+
+        <div id="enterHere" class="todoContent">
+
+            <!-- <h3>What we have for today?</h3> -->
+            <input id="inputArea" type="text" placeholder="What we have for today ?">
+            <p id="button">>></p>
+
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
